@@ -1,27 +1,29 @@
-.place__website {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  max-width: 456px;
-  width: max-content;
+.place__note {
+  max-width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__note {
+    max-width: 456px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .place__website {
+  .place__note {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .place__website {
+  .place__note {
+    max-width: 100%;
     margin-left: 24px;
     margin-right: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__website {
-    max-width: 288px;
+  .place__note {
     margin-left: 16px;
     margin-right: 16px;
   }

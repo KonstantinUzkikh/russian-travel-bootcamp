@@ -1,4 +1,25 @@
 .cover__link {
-  grid-column: 1/2;
-  grid-row: 1/2;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  width: 100%;
+  padding-bottom: 19.141%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    padding-bottom: 19.043%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    padding-bottom: 14.974%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover__link {
+    padding-bottom: 10.313%;
+  }
 }

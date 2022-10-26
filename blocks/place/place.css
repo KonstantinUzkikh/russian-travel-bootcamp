@@ -17,6 +17,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .place {
+    margin-top: 73px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .place {
     grid-template-columns: 1fr;
