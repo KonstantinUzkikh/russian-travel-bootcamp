@@ -1,26 +1,9 @@
 .place {
-  margin-top: 80px;
   width: 100%;
-  max-width: 980px;
+  max-width: 984px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 48px 16px;
-}
-
-.place:first-of-type {
-  margin-top: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .place {
-    gap: 48px 16px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place {
-    margin-top: 73px;
-  }
 }
 
 @media screen and (max-width: 550px) {

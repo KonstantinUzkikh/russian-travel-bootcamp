@@ -4,6 +4,7 @@
   background-image: url(../../images/cover-rws.png);
   background-size: cover;
   background-position: center;
+  margin: 0 48px;
   z-index: 0;
 }
 
@@ -17,11 +18,17 @@
   background-color: #2A2C2F;
   object-fit: cover;
   transition: opacity .3s ease-in-out;
-  opacity: .8;
+  opacity: .3;
   z-index: -1;
 }
 
 .cover:hover::before {
-  opacity: .3;
+  opacity: .8;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 0;
+  }
+}
